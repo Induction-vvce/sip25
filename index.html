@@ -9,6 +9,8 @@
       margin: 0;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #1CB5E0, #000851);
+      background-attachment: fixed; /* ensures same gradient on mobile */
+      background-size: cover;
       color: #fff;
       min-height: 100vh;
       display: flex;
@@ -97,6 +99,13 @@
         flex: 1 1 100%;
       }
     }
+
+    footer {
+      text-align: center;
+      font-size: 0.7rem;
+      padding: 8px;
+      color: rgba(255, 255, 255, 0.7);
+    }
   </style>
 </head>
 <body>
@@ -119,5 +128,9 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    abh
+  </footer>
 </body>
 </html>
